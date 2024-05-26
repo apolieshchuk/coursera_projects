@@ -1,0 +1,163 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Basic CSS for the form elements */
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 20px; */
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./travel_bg.webp");
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 200px;
+    padding: 5px;
+}
+
+button {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Basic CSS for the report section */
+h2 {
+    margin-top: 30px;
+}
+
+#report,#result {
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+}
+#result{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#result img{
+    width: 200px;
+    height: 100px;
+}
+
+.content {
+    width: 400px;
+    padding: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.content-about {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.content-about .title {
+    align-self: flex-end;
+}
+
+.section-about {
+    width: 50%;
+    align-self: flex-end;
+}
+
+.content .title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.title-team {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    /*width: 50%;*/
+    /*right: 1%;*/
+    margin-left: 25rem;
+}
+
+.our-team {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.our-team div {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.content .icons {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#contactForm {
+    align-self: flex-end;
+}
+
+.searchCondition {
+    overflow: auto;
+    height: 85vh;
+    /*flex-grow: 1;*/
+}

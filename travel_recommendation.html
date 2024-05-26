@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Travel Explore</title>
+    <link rel="stylesheet" href="./travel.css">
+</head>
+<body>
+<nav><h1>My Travel Explore</h1>
+    <ul>
+        <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+        <li><a href="./travel_about_us.html" id="about_us">About Us </a></li>
+        <li><a href="./travel_contact.html" id="contact_us">Contact Us </a></li>
+    </ul>
+    <ul>
+        <li><input type="text" id="conditionInput" placeholder="Enter a destination or keyword">  </li>
+        <li><button id='btnSearch'>Search</button>
+        <li><button id='btnReset'>Reset</button>
+        </li>
+    </ul>
+</nav>
+<div class="container">
+
+    <div style="width: 100%; display: flex; justify-content: space-between">
+        <div class="content">
+            <div class="title">EXPLORE YOUR DREAM DESTINATION</div>
+
+            <div class="section">
+                <h2>Discover Your Next Adventure</h2>
+                <br>
+                <p>Start your adventure today and explore the world like never before with <strong>Explore Your Dream Destination</strong>. Your next unforgettable journey awaits!</p>
+            </div>
+
+            <div class="icons">
+                <img width="28" src="./assets/fb.png" alt="fb">
+                <img width="28" src="./assets/insta.webp" alt="insta">
+                <img width="28" src="./assets/youtube.png" alt="you">
+                <img width="28" src="./assets/x.webp" alt="x">
+            </div>
+        </div>
+        <div class="searchCondition">
+            <div id="result"></div>
+        </div>
+    </div>
+
+</div>
+<script src="./travel_recommendation.js"></script>
+</body>
+</html>
